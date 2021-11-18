@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(122, 122, 122);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    border: 3px solid white;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-family: "Roboto";
+}
+
+form label{
+    font-size: 1.4rem;
+}
+
+form .question{
+    font-size: 1.6rem;
+}
+
+#Submit{
+    background-color: rgb(121, 88, 0);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5%;
+    margin-bottom: 1%;
+}
+
+#Refresh{
+    background-color:rgb(0, 78, 102);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5%;
+    margin-bottom: 1%;
+}
+
+.Buttons{
+    text-align: center;
+}
+
+.Question{
+    border: 2px solid rgb(153, 153, 153);
+    text-align: left;
+    padding: 1.3% 1.3%;
+    margin: 1% 1%;
+}
+
+div.QA{
+    background-color: rgb(121, 88, 0);
+}
+
+div.QB{
+    background-color: rgb(0, 78, 102);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="Quiz" id="Quiz">
+        <div class="Heading">
+            <h1>Math Quiz</h1>
+        </div>
+        <div class="Question QA">
+            <label class="question" name="q1">1) What is 1 + 1?</label><br>
+            <input type="radio" value="A" name="q1">
+            <label>1</label><br>
+            <input type="radio" value="B" name="q1">
+            <label>2</label><br><!--Correct Answer-->
+            <input type="radio" value="C" name="q1">
+            <label>3</label><br>
+            <input type="radio" value="D" name="q1">
+            <label>4</label>
+        </div>
+        <div class="Question QB">
+            <label class="question" name="q2">2) What is 3 x 3?</label><br>
+            <input type="radio" value="A" name="q2">
+            <label>3</label><br>
+            <input type="radio" value="B" name="q2">
+            <label>27</label><br>
+            <input type="radio" value="C" name="q2">
+            <label>0</label><br>
+            <input type="radio" value="D" name="q2">
+            <label>9</label><!--Correct Answer-->
+        </div>
+        <div class="Question QA">
+            <label class="question" name="q3">3) What is 4^2?</label><br>
+            <input type="radio" value="A" name="q3">
+            <label>8</label><br>
+            <input type="radio" value="B" name="q3">
+            <label>16</label><br><!--Correct Answer-->
+            <input type="radio" value="C" name="q3">
+            <label>2</label><br>
+            <input type="radio" value="D" name="q3">
+            <label>63</label>
+        </div>
+        <div class="Question QB">
+            <label class="question" name="q4">4) What is the square root of 64?</label><br>
+            <input type="radio" value="A" name="q4">
+            <label>4</label><br>
+            <input type="radio" value="B" name="q4">
+            <label>-16</label><br>
+            <input type="radio" value="C" name="q4">
+            <label>8</label><br><!--Correct Answer-->
+            <input type="radio" value="D" name="q4">
+            <label>128</label>
+        </div>
+        <div class="Question QA">
+            <label class="question" name="q5">5) What is the GCF of 36 and 24</label><br>
+            <input type="radio" value="A" name="q5">
+            <label>12</label><br><!--Correct Answer-->
+            <input type="radio" value="B" name="q5">
+            <label>6</label><br>
+            <input type="radio" value="C" name="q5">
+            <label>8</label><br>
+            <input type="radio" value="D" name="q5">
+            <label>24</label>
+        </div>
+        <br>
+        <div class="Buttons">
+            <button id="Submit" type="button" onclick="finish()">Submit</button>
+            <button id="Refresh" type="button" onclick="location.reload()">Refresh</button>
+        </div>
+    </form>
+
+</body>
+</html>
